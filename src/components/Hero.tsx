@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
             <h1 className="text-4xl md:text-6xl font-bold text-soft-white mb-6 leading-tight">
               Hi, I'm <span className="text-accent">{aboutMe.name}</span>
               <br />
-              <span className="text-highlight">I build things for the web</span>
+              <span className="text-highlight"></span>
             </h1>
             
             <p className="text-lg md:text-xl text-soft-white/80 mb-8 leading-relaxed">
