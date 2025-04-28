@@ -4,27 +4,34 @@ import SectionTitle from './common/SectionTitle';
 import {
   Blocks, Braces, Database, Globe, Terminal, Cpu,
   Box, Layers, Cloud, Workflow, GitBranch, Monitor,
-  Palette, Settings, Server, Code2
+  Palette, Settings, Server, Code2, BarChart, Table, ServerCog
 } from 'lucide-react';
 
 const Skills: React.FC = () => {
   const tools = [
     { name: 'Python', icon: <Terminal />, color: 'rgb(255, 212, 59)' },
+    { name: 'C', icon: <Code2 />, color: 'rgb(0, 123, 255)' },
+    { name: 'C++', icon: <Code2 />, color: 'rgb(0, 0, 255)' },
     { name: 'React', icon: <Blocks />, color: 'rgb(97, 218, 251)' },
-    { name: 'TypeScript', icon: <Braces />, color: 'rgb(49, 120, 198)' },
+    { name: 'Express', icon: <Code2 />, color: 'rgb(147, 147, 147)' },
     { name: 'Node.js', icon: <Server />, color: 'rgb(83, 158, 67)' },
     { name: 'MongoDB', icon: <Database />, color: 'rgb(0, 237, 100)' },
+    { name: 'Tableau', icon: <BarChart />, color: 'rgb(0, 123, 190)' },
+    { name: 'Excel', icon: <Table />, color: 'rgb(16, 124, 16)' },
+    { name: 'Hadoop', icon: <ServerCog />, color: 'rgb(255, 153, 0)' },
+    { name: 'TypeScript', icon: <Braces />, color: 'rgb(49, 120, 198)' },
     { name: 'Git', icon: <GitBranch />, color: 'rgb(240, 80, 50)' },
-    { name: 'Express', icon: <Code2 />, color: 'rgb(147, 147, 147)' },
-    { name: 'Docker', icon: <Box />, color: 'rgb(13, 136, 209)' },
-    { name: 'AWS', icon: <Cloud />, color: 'rgb(255, 153, 0)' },
-    { name: 'Vue.js', icon: <Layers />, color: 'rgb(65, 184, 131)' },
-    { name: 'Next.js', icon: <Globe />, color: 'rgb(255, 255, 255)' },
-    { name: 'GraphQL', icon: <Cpu />, color: 'rgb(229, 53, 171)' },
-    { name: 'CI/CD', icon: <Workflow />, color: 'rgb(252, 108, 133)' },
-    { name: 'Tailwind', icon: <Palette />, color: 'rgb(56, 189, 248)' },
-    { name: 'Redux', icon: <Settings />, color: 'rgb(118, 74, 188)' },
-    { name: 'Kubernetes', icon: <Monitor />, color: 'rgb(50, 109, 230)' },
+    { name: 'Eclipse', icon: <Monitor />, color: 'rgb(52, 87, 157)' },
+    { name: 'RStudio', icon: <Terminal />, color: 'rgb(60, 125, 183)' },
+    
+    
+    // { name: 'Vue.js', icon: <Layers />, color: 'rgb(65, 184, 131)' },
+    // { name: 'Next.js', icon: <Globe />, color: 'rgb(255, 255, 255)' },
+    // { name: 'GraphQL', icon: <Cpu />, color: 'rgb(229, 53, 171)' },
+    // { name: 'CI/CD', icon: <Workflow />, color: 'rgb(252, 108, 133)' },
+    // { name: 'Tailwind', icon: <Palette />, color: 'rgb(56, 189, 248)' },
+    // { name: 'Redux', icon: <Settings />, color: 'rgb(118, 74, 188)' },
+    // { name: 'Kubernetes', icon: <Monitor />, color: 'rgb(50, 109, 230)' },
   ];
 
   return (

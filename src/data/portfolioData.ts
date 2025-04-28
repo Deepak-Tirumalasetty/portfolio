@@ -12,21 +12,21 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    title: "Amazon Sales Dashboard ",
-    description: "Designed and developed an interactive dashboard in Tableau to visualize Amazon sales trends across categories, regions, and time periods. Performed end-to-end data preparation, including cleaning, transformation, filtering, and aggregation, to derive actionable insights from raw sales data.",
-    image: "/assets/projects/amazon_sales.png",
-    technologies: ["Tableau", "Data Visualization", "Data Cleaning & Transformation"],
-    liveUrl: ".",
-    githubUrl: "."
-  },
-  {
-    id: 3,
     title: "Brawn Fitness - Web Application",
     description: "Built out a clean, intuitive user interface featuring engaging visuals, interactive components, and a fully responsive layout for seamless use across devices. Implemented key sections including workout programs, membership plans, user testimonials, and a contact form to enhance overall user experience.",
     image: "/assets/projects/brawn.png",
     technologies: ["HTML","CSS","React","JavaScript"],
     liveUrl: "https://brawn-y69h.onrender.com/",
     githubUrl: "https://github.com/Deepak-Tirumalasetty/Brawn"
+  },
+  {
+    id: 3,
+    title: "Task Management System",
+    description: "Created a full-stack web application leveraging the MERN stack. The project features a React-powered frontend delivering an interactive user experience, paired with a Node.js/Express backend and MongoDB for efficient data handling.  Integrated RESTful APIs and CRUD operations to support smooth and dynamic functionality.",
+    image: "/assets/projects/task_management.png",
+    technologies: ["React","NodeJs","MongoDB","Express","JavaScript"],
+    liveUrl: "https://mern-front-l3qo.onrender.com/",
+    githubUrl: "https://github.com/Deepak-Tirumalasetty/mern-front"
   },
   {
     id: 4,
@@ -39,31 +39,31 @@ export const projects: Project[] = [
   },
   {
     id: 5,
-    title: "Task Management System",
-    description: "Created a full-stack web application leveraging the MERN stack. The project features a React-powered frontend delivering an interactive user experience, paired with a Node.js/Express backend and MongoDB for efficient data handling.  Integrated RESTful APIs and CRUD operations to support smooth and dynamic functionality.",
-    image: "/assets/projects/task_management.png",
-    technologies: ["React","NodeJs","MongoDB","Express","JavaScript"],
-    liveUrl: "https://mern-front-l3qo.onrender.com/",
-    githubUrl: "https://github.com/Deepak-Tirumalasetty/mern-front"
+    title: "Amazon Sales Dashboard ",
+    description: "Designed and developed an interactive dashboard in Tableau to visualize Amazon sales trends across categories, regions, and time periods. Performed end-to-end data preparation, including cleaning, transformation, filtering, and aggregation, to derive actionable insights from raw sales data.",
+    image: "/assets/projects/amazon_sales.png",
+    technologies: ["Tableau", "Data Visualization", "Data Cleaning & Transformation"],
+    liveUrl: ".",
+    githubUrl: "."
   }
 ];
 
 export const certificates: Certificate[] = [
   {
     id: 1,
-    name: "Data Structures and Algorithms",
-    issuer: "GeeksforGeeks",
-    date: "June 2024",
-    url: "file:///D:/certificates/DSA_certificate.pdf",
-    image: "/assets/certs/dsa.png"
-  },
-  {
-    id: 2,
     name: "Supervised Machine Learning: Regression and Classification",
     issuer: "Coursera",
     date: "December 2024",
     url: "https://www.coursera.org/account/accomplishments/certificate/CV35VJGC3DTM",
     image: "/assets/certs/supervised.png"
+  },
+  {
+    id: 2,
+    name: "Data Structures and Algorithms",
+    issuer: "GeeksforGeeks",
+    date: "June 2024",
+    url: "file:///D:/certificates/DSA_certificate.pdf",
+    image: "/assets/certs/dsa.png"
   },
   {
     id: 3,
@@ -140,7 +140,7 @@ export const aboutMe = {
   title: "Software Developer | Machine Learning Developer",
   introduction: "I'm a passionate software and machine learning developer dedicated to creating smart, scalable solutions. I enjoy transforming complex challenges into clean, efficient, and impactful code.",
   details: "I'm a passionate student developer exploring software and machine learning. I enjoy building projects and learning by solving real-world problems with code.",
-  profileImage: "",
+  profileImage: "/assets/photo.png",
   skills: [
     "JavaScript/TypeScript", 
     "React/Next.js", 
